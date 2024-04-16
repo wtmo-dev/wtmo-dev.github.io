@@ -10,10 +10,10 @@ github_username: wtmo-dev
 linkedin_username: young-jin-go/
 
 # External API
-giscus_repo:
-giscus_repoId:
-giscus_category:
-giscus_categoryId:
+giscus_repo: wtmo-dev/wtmo-dev.github.io
+giscus_repoId: R_kgDOLu2Q5w
+giscus_category: Q&A
+giscus_categoryId: DIC_kwDOLu2Q584CeuaU
 goatcounter_code:
 google_analytics:
 
