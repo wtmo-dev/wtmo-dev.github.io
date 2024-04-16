@@ -1,0 +1,47 @@
+title: WTMO-dev
+description: "WTMO-dev blog"
+logo_img: "/assets/img/logo.jpg"
+profile_img: "/assets/img/profile.PNG"
+
+# Social Links
+# email: wtmo-dev@naver.com
+email: https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWsTHqlRKFkRMhMVKxzhqGbppBgVFvgqJNMrKvjpMDkQqnpvbRFTPxSrHxNrCMSHjCxRFTbPv
+github_username: wtmo-dev
+linkedin_username: young-jin-go/
+
+# External API
+giscus_repo:
+giscus_repoId:
+giscus_category:
+giscus_categoryId:
+goatcounter_code:
+google_analytics:
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-loading-lazy
+
+exclude:
+  - docs/
+
+collections:
+  pages:
+    output: true
+    permalink: /:path.html
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      date: "1900-01-01"
+
+# Markdown newline activator 
+kramdown:
+  input: GFM
+  hard_wrap: true
