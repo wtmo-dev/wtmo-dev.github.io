@@ -39,7 +39,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      date: "1900-01-01"
+      date: "2020-01-01"
 
 markdown: kramdown
 highlighter: rouge

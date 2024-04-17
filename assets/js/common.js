@@ -327,7 +327,7 @@ function searchRelated(pages){
         let date = '-';
         let category = 'No category';
 
-        if (post.date !== '1900-01-01'){
+        if (post.date !== '2020-01-01'){
             date = new Date(post.date);
             date = date.toLocaleString('en-US', {day: 'numeric', month:'long', year:'numeric'});
         }
