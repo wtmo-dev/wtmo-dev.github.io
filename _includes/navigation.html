@@ -8,7 +8,7 @@
         {%- assign p_name = p_tree | last -%}
         {%- assign p_level = p_tree | size -%}
 
-        {% if p.bookmark == nil and p_name != 'index.html' %}
+        {% if p.bookmark == nil and p_name != 'index.html' or p.resume == true or p.proj == true %}
             {% continue %}
         {% endif %}
 
@@ -34,6 +34,61 @@
     {% assign first_level_pages = first_level_pages | sort: 'url' %}
     {% assign second_level_pages = second_level_pages | sort: 'url' %}
     {% assign third_level_pages = third_level_pages | sort: 'url' %}
+    
+    {% for p in site.pages %}
+        {%- assign p_tree = p.url | remove_first: "/" | split: "/" -%}
+        {%- assign p_name = p_tree | last -%}
+        {%- assign p_level = p_tree | size -%}
+
+        {% if p.proj != true %}
+            {% continue %}
+        {% endif %}
+
+        {% if p.bookmark %}
+            {% if p_level == 1 %}
+                {% assign first_level_pages = first_level_pages | push:p %}
+            {% elsif p_level == 2 %}
+                {% assign second_level_pages = second_level_pages | push:p %}
+            {% elsif p_level == 3 %}
+                {% assign third_level_pages = third_level_pages | push:p %}
+            {% endif %}
+        {% else %}
+            {% if p_level <= 2 %}
+                {% assign first_level_pages = first_level_pages | push:p %}
+            {% elsif p_level == 3 %}
+                {% assign second_level_pages = second_level_pages | push:p %}
+            {% elsif p_level == 4 %}
+                {% assign third_level_pages = third_level_pages | push:p %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    {% for p in site.pages %}
+        {%- assign p_tree = p.url | remove_first: "/" | split: "/" -%}
+        {%- assign p_name = p_tree | last -%}
+        {%- assign p_level = p_tree | size -%}
+
+        {% if p.resume != true %}
+            {% continue %}
+        {% endif %}
+
+        {% if p.bookmark %}
+            {% if p_level == 1 %}
+                {% assign first_level_pages = first_level_pages | push:p %}
+            {% elsif p_level == 2 %}
+                {% assign second_level_pages = second_level_pages | push:p %}
+            {% elsif p_level == 3 %}
+                {% assign third_level_pages = third_level_pages | push:p %}
+            {% endif %}
+        {% else %}
+            {% if p_level <= 2 %}
+                {% assign first_level_pages = first_level_pages | push:p %}
+            {% elsif p_level == 3 %}
+                {% assign second_level_pages = second_level_pages | push:p %}
+            {% elsif p_level == 4 %}
+                {% assign third_level_pages = third_level_pages | push:p %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
 
     <ul class="nav-list">
     {%- for node in first_level_pages -%}
@@ -42,6 +97,9 @@
         {%- assign children_list = second_level_pages 
             | where_exp: "item", "item.url contains node_url" -%}
         {%- assign num_children = children_list | size -%}
+        {%- if node.line == true -%}
+            <div style="width: 100%; height: 5px; background-color: #3A241A;"></div>
+        {%- endif -%}
         <li id="nav-first" aria-label="{{ node_title }}">
             <div class="nav-item">
                 <a href="{{ node_url }}" class="nav-list-link nav-lh">

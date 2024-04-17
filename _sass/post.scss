@@ -22,9 +22,9 @@
   background:#fff;
 
   img {
-    display:block;
+    // display:block;
     text-align:center;
-    width:100%;
+    // width:100%;
     margin:auto;
   }
   .img-xs { width:12.5% !important; }
@@ -176,7 +176,7 @@ main {
   overflow-wrap:break-word;
   word-wrap:break-word;
 
-  * { margin:auto; }
+  // * { margin:auto; }
 
   h1, h2, h3 {
     margin-top:3rem;
@@ -215,15 +215,15 @@ main {
     }
   }
 
-  p, ul, table, div { margin-bottom:3rem; }
+  // p, ul, table, div { margin-bottom:3rem; }
 
-  p + div,
-  p + pre,
-  p + blockquote,
-  div + div,
-  div + blockquote { 
-    margin-top:-2rem; 
-  }
+  // p + div,
+  // p + pre,
+  // p + blockquote,
+  // div + div,
+  // div + blockquote { 
+  //   margin-top:-2rem; 
+  // }
 
   ul { padding-left:2rem; }
 

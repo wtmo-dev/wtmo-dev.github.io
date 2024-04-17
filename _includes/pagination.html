@@ -30,10 +30,20 @@
                         <a href="{{ sub_page.url }}" class="txt_post">
                             {{ sub_page.content | markdownify | strip_html }}
                         </a>
-                        <div class="info-post">
+                        <div class="info-post" style="display: flex;">
                             {%- assign sub_page_tree = sub_page.path | split: "/" -%}
-                            {% if sub_page_tree.size > 2 %}
+                            {% if sub_page_tree.size == 3 %}
                                 <a href="{{ '/' | append: sub_page_tree[1] }}" class="category">{{ sub_page_tree[1] }}</a>
+                            {% elsif sub_page_tree.size == 4 %}
+                                <a href="{{ '/' | append: sub_page_tree[1] }}" class="category">{{ sub_page_tree[1] }}</a>
+                                <div>&nbsp;/&nbsp;</div>
+                                <a href="{{ '/' | append: sub_page_tree[1] | append: '/' | append: sub_page_tree[2] }}" class="category">{{ sub_page_tree[2] }}</a>
+                            {% elsif sub_page_tree.size == 5 %}
+                                <a href="{{ '/' | append: sub_page_tree[1] }}" class="category">{{ sub_page_tree[1] }}</a>
+                                <div>&nbsp;/&nbsp;</div>
+                                <a href="{{ '/' | append: sub_page_tree[1] | append: '/' | append: sub_page_tree[2] }}" class="category">{{ sub_page_tree[2] }}</a>
+                                <div>&nbsp;/&nbsp;</div>
+                                <a href="{{ '/' | append: sub_page_tree[1] | append: '/' | append: sub_page_tree[2] | append: '/' | append: sub_page_tree[3] }}" class="category">{{ sub_page_tree[3] }}</a>
                             {% else %}
                                 <span class="category">None</span>
                             {% endif %}

@@ -22,6 +22,7 @@ gem "jekyll-seo-tag", "~> 2.6"
 gem "kramdown-parser-gfm", "~> 1.1.0"
 gem "webrick", "~> 1.7.0"
 gem 'jekyll-loading-lazy', "~> 0.1.1"
+gem "rouge", "~> 4.0.1"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
