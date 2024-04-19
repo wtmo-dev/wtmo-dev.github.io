@@ -59,7 +59,8 @@
     {%- endfor -%}
 </div>
 <main>
-    {{ content }}
+    {% include anchor_headings.html html=content anchorBody="#" %}
+    <!-- {{ content }} -->
     <!-- see https://giscus.app/ -->
     <div class="giscus" id="giscus" style="margin: 4rem auto;"></div>
     <div id="related-box">
