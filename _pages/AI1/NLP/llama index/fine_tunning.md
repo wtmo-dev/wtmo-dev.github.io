@@ -4,7 +4,7 @@ tags:
     - NLP
     - llama index
     - fine tunning
-date: "2023-04-04"
+date: "2024-04-04"
 thumbnail: "/assets/img/thumbnail/logo.jpg"
 ---
 

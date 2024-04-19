@@ -26,7 +26,7 @@ thumbnail: "/assets/img/thumbnail/logo.jpg"
 
 ## create personal repository
 ---
-홈페이지에서 관리할 수 있지만 CLI를 통하여 아래와 같이 관리가 가능하다. 홈페이지 setting에서 Access Tokens에 접근하면 token을 생성할 수 있습니다. token은 읽기용 쓰기용 2가지로 나뉘어 진다. 서버에서 가져와서 활용할때는 read, 서버에 등록할때는 write를 활용하면 된다.
+홈페이지에서 관리할 수 있지만 CLI를 통하여 아래와 같이 관리가 가능하다. 홈페이지 setting에서 Access Tokens에 접근하면 token을 생성할 수 있습니다. token은 읽기용 쓰기용 2가지로 나뉘어 진다. 서버에서 가져와서 활용할때는 read, 서버에 등록할때는 write를 활용하면 됩니다.
 
 {% highlight shell %}
 pip install huggingface_hub
@@ -38,7 +38,7 @@ huggingface-cli repo create <repo_name> --type {model, dataset, space}
 
 ## use personal repository
 ---
-개인 레포지토리를 사용하려면 아래와 같이 가져와서 git과 같이 활용하면 된다.
+개인 레포지토리를 사용하려면 아래와 같이 가져와서 git과 같이 활용하면 됩니다.
 
 {% highlight shell %}
 git lfs install
@@ -48,7 +48,7 @@ git clone https://huggingface.co/<username>/<repo_name>
 
 # use hugging face model
 ---
-코드상으로 huggingface를 활용하려면 아래와 같은 폼을 활용하면 활용이 가능하다. 자세한 방법은 각각의 모델과 토크나이저를 업로드한 organization을 확인하면 된다.
+코드상으로 huggingface를 활용하려면 아래와 같은 폼을 활용하면 활용이 가능하다. 자세한 방법은 각각의 모델과 토크나이저를 업로드한 organization을 확인하면 됩니다.
 
 {% highlight shell %}
 from transformers import AutoModelForCausalLM, AutoTokenizer
