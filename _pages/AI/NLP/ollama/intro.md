@@ -3,7 +3,7 @@ title: "Ollama intro"
 tags:
     - NLP
     - ollama
-date: "2024-04-01"
+date: "2024-03-01"
 thumbnail: "/assets/img/thumbnail/logo.jpg"
 ---
 

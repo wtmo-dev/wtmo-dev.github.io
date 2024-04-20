@@ -3,7 +3,7 @@ title: "Hugging face intro"
 tags:
     - NLP
     - hugging face
-date: "2023-04-02"
+date: "2024-03-04"
 thumbnail: "/assets/img/thumbnail/logo.jpg"
 ---
 

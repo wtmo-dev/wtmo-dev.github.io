@@ -1,9 +1,9 @@
 ---
-title: "Llama index intro"
+title: "Llamaindex intro"
 tags:
     - NLP
-    - llama index
-date: "2024-04-03"
+    - llamaindex
+date: "2024-03-05"
 thumbnail: "/assets/img/thumbnail/logo.jpg"
 ---
 
