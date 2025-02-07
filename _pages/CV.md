@@ -44,12 +44,12 @@ line: true
     <img src="/assets/img/cv/profile.PNG" style="vertical-align:middle; width: 170px; height: 210px;">
     <span style="margin-left:20px; margin-top:0px; height: 160px;">
         <span style="display: flex; margin-bottom: 10px;" class="text_1">Young Jin Go</span>
-        <span style="display: flex; margin-bottom: 20px;" class="text_2">MLOps / Developer</span>
-        <span style="display: flex; margin-bottom: 5px;" class="text_2">저는 AI 경험과 다양한 개발 경험을 겸비한 소통과 협업의 중요성을 아는 개발자 입니다.</span>
-        <span style="display: flex;" class="text_3">저는 만드는것을 좋아 합니다.  
-세상은 만들어진것과 만들어지지 않은것뿐입니다.  
-개발자로 2~3년 활동을 하면서 다양한것을 만들어 보았지만, 세상은 변하고 있고 만들어야 하는것이 늘어 나고 있습니다.  
-AI를 공부하여 더 다양한 것을 경험하여 개발자로써 폭넓게 다양한것들을 만들어 나가고 싶습니다. </span>
+        <span style="display: flex; margin-bottom: 20px;" class="text_2">Developer / MLOps</span>
+        <span style="display: flex; margin-bottom: 5px;" class="text_2">저는 다양한 개발 경험과 AI 경험을 겸비한 소통과 협업의 중요성을 아는 개발자 입니다.</span>
+        <span style="display: flex;" class="text_3">저는 가치가 있는것을 만드는것을 좋아 합니다.  
+개발자로 2~3년 활동을 하면서 다양한것을 만들어 보았지만, 세상은 변하고 있고 필요로 하며 가치가 있는 만들어야 하는것들이 늘어 나고 있습니다.  
+최근에는 AI를 공부하여 더 다양한 것을 경험하여 개발자로써 폭넓게 다양한 가치있는 활동을 할 수 있다고 생각합니다.  
+경험을 기반으로 더욱 다양한 가치를 본 팀에서 같이 이루어 내고 싶습니다.</span>
     </span>
 </div>
 
@@ -74,17 +74,20 @@ AI를 공부하여 더 다양한 것을 경험하여 개발자로써 폭넓게 �
     </div>
     <div style="flex: 6; margin-top: 0px;">
         <img src="/assets/img/cv/blog.png" style="vertical-align:middle;" class="width_3 height_3">
-        <a style="margin-top:20px;" class="text_3" href="https://gitwtmo.github.io/study/">: gitblog</a>
+        <a style="margin-top:20px;" class="text_3" href="wtmo-dev.github.io">: gitblog</a>
     </div>
 </div>
 
 <div style="border-bottom: 1px solid; margin-top: 15px; margin-bottom: 15px; height: 10px"></div>
 
 
-<span style="display: flex; margin-bottom: 0px;" class="text_1">Skill set</span>
+<!-- <span style="display: flex; margin-bottom: 0px;" class="text_1">Skill set</span> -->
+<div class="text_2">
+        Skill set
+    </div>
 
 
-<div style="display: flex; margin-top: -20px; margin-bottom: 10px;" class="height_2">
+<div style="display: flex; margin-top: 0px; margin-bottom: 10px;" class="height_2">
     <div style="width: 120px;">
         <img src="/assets/img/cv/python.png" style="vertical-align:middle;" class="width_2 height_2">
         <span class="text_2" style="font-weight: 500" >: 3.5 / 4.5</span>
@@ -100,6 +103,7 @@ AI를 공부하여 더 다양한 것을 경험하여 개발자로써 폭넓게 �
         FrontEnd
     </div>
     <div>
+        <img src="https://img.shields.io/badge/-C%23-000000?logo=Csharp&style=flat&logo=C%23&logoColor=white" style="Display: initial;"/>
         <img src="https://img.shields.io/badge/figma-F24E1E?style=flat&logo=figma&logoColor=white" style="Display: initial;"/>
         <img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=white" style="Display: initial;"/>
         <img src="https://img.shields.io/badge/markdown-000000?style=flat&logo=markdown&logoColor=white" style="Display: initial;"/>
@@ -151,6 +155,27 @@ AI를 공부하여 더 다양한 것을 경험하여 개발자로써 폭넓게 �
 <span style="display: flex; margin-bottom: 0px;" class="text_1">History</span>
 
 
+<div style="display: flex; margin-bottom:50px;">
+    <span class="text_2" style="margin-top:0px; flex: 10; font-weight: 500">2024.10.01 – </span>
+    <div style="margin-bottom: 0px; margin-left:10px; border-left : medium solid #a0a0a0; flex: 1"></div>
+    <span style="margin-left:20px; flex: 50">
+        <span style="display: flex; margin-bottom: 10px" class="text_2">팀 GLEADA 개발자 업무</span>
+        <span style="margin-bottom: 10px; display: inline;">
+            <dt style="margin-left: 10px; margin-bottom: 3px" class="text_3">유니티를 활용한 게임 개발</dt>
+        </span>
+    </span>
+</div>
+<div style="display: flex; margin-bottom:50px;">
+    <span class="text_2" style="margin-top:0px; flex: 10; font-weight: 500">2024.02.14 – 2024.10.31</span>
+    <div style="margin-bottom: 0px; margin-left:10px; border-left : medium solid #a0a0a0; flex: 1"></div>
+    <span style="margin-left:20px; flex: 50">
+        <span style="display: flex; margin-bottom: 10px" class="text_2">Coding Is Coffee 외주 작업</span>
+        <span style="margin-bottom: 10px; display: inline;">
+            <dt style="margin-left: 10px; margin-bottom: 3px" class="text_3">FastAPI, MongoDB를 활용한 서버로 구성된 slack bot 제작</dt>
+            <dt style="margin-left: 10px; margin-bottom: 3px" class="text_3">교육자료 제작 및 수정</dt>
+        </span>
+    </span>
+</div>
 <div style="display: flex; margin-bottom:50px;">
     <span class="text_2" style="margin-top:0px; flex: 10; font-weight: 500">2023.07.17 – 2024.02.08</span>
     <div style="margin-bottom: 0px; margin-left:10px; border-left : medium solid #a0a0a0; flex: 1"></div>
@@ -216,7 +241,7 @@ AI를 공부하여 더 다양한 것을 경험하여 개발자로써 폭넓게 �
 
 
 <div style="display: flex; margin-bottom:10px;">
-    <span class="text_2" style="margin-top:0px; flex: 10; font-weight: 500">2024.02.14 ~ 2024.05.15</span>
+    <span class="text_2" style="margin-top:0px; flex: 10; font-weight: 500">2024.02.14 ~ 2024.10.31</span>
     <div style="margin-left:10px; border-left : medium solid #a0a0a0; flex: 1"></div>
     <span style="margin-left:20px; flex: 50">
         <span style="display: flex; display: flex;" class="text_2">사용자 친화적인 챗봇 만들기 프로젝트</span>
@@ -224,7 +249,7 @@ AI를 공부하여 더 다양한 것을 경험하여 개발자로써 폭넓게 �
             <ul>
                 <li class="text_3">최신 LLM 논문 분석</li>
                 <li class="text_3">FastAPI, MongoDB를 활용한 서버로 구성된 slack bot 제작</li>
-                <li class="text_3">LangChain을 활용한 성능 개선법 검토중</li>
+                <li class="text_3">LangChain을 활용한 성능 개선법 탐구</li>
             </ul>
         </span>
     </span>
@@ -358,9 +383,10 @@ AI를 공부하여 더 다양한 것을 경험하여 개발자로써 폭넓게 �
 
 [Resume](https://gitwtmo.github.io/wtmo_resume) -->
 
-<span style="display: flex; margin-bottom: 0px;" class="text_1">Portfolio</span>
+<!-- 포폴 -->
+<!-- <span style="display: flex; margin-bottom: 0px;" class="text_1">Portfolio</span>
 
-[Portfolio](https://docs.google.com/presentation/d/1A8W4IXbp1PC8v5sj9lv8VF74FVydpPrBWiwEpFEM_FE/edit?usp=drive_link)
+[Portfolio](https://docs.google.com/presentation/d/1A8W4IXbp1PC8v5sj9lv8VF74FVydpPrBWiwEpFEM_FE/edit?usp=drive_link) -->
 
 <!-- <div style="border-bottom: 1px solid; border-color: #a0a0a0; margin-top: 15px; margin-bottom: 15px; height: 10px"></div>
 

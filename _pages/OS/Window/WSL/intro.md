@@ -46,38 +46,42 @@ wsl --install -d <os-name> # os 설치
 wsl --set-default <os-name> # default os 설정
 {% endhighlight %}
 
-----
+## additional
+---
+wsl상에서 python에서 pip 없을때 설치법
 
-python에서 pip 없을때 설치법
+{% highlight shell %}
 sudo apt install python3-pip
 
 curl https://pyenv.run | bash # pyenv 설치
+{% endhighlight %}
+
+파이썬 실행중 _ctype error가 발생 될때 해결법
+
+{% highlight shell %}
+sudo apt-get update
+sudo apt-get install -y libffi-dev
+pyenv uninstall 3.8.0
+pyenv install -v 3.8.0
+
+source $HOME/.bashrc
+{% endhighlight %}
 
 ## pyenv configs
+{% highlight shell %}
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
-
+{% endhighlight %}
 또는
-
+{% highlight shell %}
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-
-
-----
-if _ctype error when run python
-
-sudo apt-get update
-sudo apt-get install -y libffi-dev
-pyenv uninstall 3.8.0
-pyenv install -v 3.8.0
-
-
-source $HOME/.bashrc
+{% endhighlight %}
 
 # remove setting
 ---
