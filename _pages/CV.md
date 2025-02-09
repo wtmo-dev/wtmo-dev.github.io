@@ -119,7 +119,7 @@ line: true
                 <li style="margin-left: 10px; margin-bottom: 0px; margin-top: -5px"  class="text_3">Slack Bot을 활용하여 학생들이 강의 중 편리하게 Q&A를 할 수 있도록 지원하는 시스템 개발</li>
                 <dl style="margin-left: -10px; margin-bottom: 3px; margin-top: 5px"  class="text_3">주요 업무</dl>
                 <li style="margin-left: 10px; margin-bottom: 0px; margin-top: -5px"  class="text_3">FastAPI 및 MongoDB의 적용을 위하여 개발에 사용될 기반 코어의 유기적 오류점 체크</li>
-                <li style="margin-left: 10px; margin-bottom: 0px; margin-top: -5px"  class="text_3">기반이 될 코어 코드 구조조 제작</li>
+                <li style="margin-left: 10px; margin-bottom: 0px; margin-top: -5px"  class="text_3">기반이 될 코어 코드 구조 제작</li>
                 <dl style="margin-left: -10px; margin-bottom: 3px; margin-top: 5px"  class="text_3">업무 결과</dl>
                 <li style="margin-left: 10px; margin-bottom: 0px; margin-top: -5px"  class="text_3">학생들의 참여도 증가로 중도 이탈율 25% 감소, 기존대비 학생들의 결과물 완성도 향상</li>
                 <!-- <details>
@@ -308,8 +308,8 @@ line: true
             <ul style="margin-block-start: 0.3em; margin-block-end: 0em">
                 <li class="text_3">Slack Bot 서버 개발</li>
                 <li class="text_3">FastAPI, Python 교육</li>
-                <li style="margin-left: 10px; margin-bottom: 0px; margin-top: -5px"  class="text_3">코드 검토 및 사례들을 활용한 코드 규정 구축</li>
-                <li style="margin-left: 10px; margin-bottom: 0px; margin-top: -5px"  class="text_3">원활한 소통을 위한 칸반보드 구축</li>
+                <li class="text_3">코드 검토 및 사례들을 활용한 코드 규정 구축</li>
+                <li class="text_3">원활한 소통을 위한 칸반보드 구축</li>
             </ul>
             <!-- <dl style="margin-left: 10px; margin-bottom: 3px" class="text_3">FastAPI 및 MongoDB를 활용한 Slack Bot 서버 개발</dl>
             <dl style="margin-left: 10px; margin-bottom: 3px" class="text_3">교육자료 제작 및 수정</dl> -->
